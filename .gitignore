@@ -1,0 +1,34 @@
+# Système
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environnements virtuels
+.venv/
+venv/
+.env
+.env.*
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+.jupyter-runtime/
+
+# Caches d'outils
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Paramètres d'éditeur
+.vscode/
+.idea/
+
+# Artefacts générés par Plotly / Jupyter
+iframe_figures/
+
+# Fichiers générés par le projet
+submission_mvp_regression.csv
+submission_*.csv
